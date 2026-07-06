@@ -68,6 +68,66 @@
   box-sizing: border-box;
 }
 
+.project-media{
+    position:relative;
+    overflow:hidden;
+}
+
+.project-media img{
+    width:100%;
+    display:block;
+}
+
+.play-button{
+
+    position:absolute;
+
+    top:50%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    width:70px;
+    height:70px;
+
+    border-radius:50%;
+
+    background:rgba(0,0,0,.7);
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    transition:.3s;
+
+    cursor:pointer;
+}
+
+.play-button i{
+
+    color:white;
+
+    font-size:28px;
+
+    margin-left:4px;
+}
+
+.project-media:hover .play-button{
+
+    transform:translate(-50%,-50%) scale(1.15);
+
+    background:#14d9ff;
+}
+
+.project-media:hover img{
+
+    transform:scale(1.05);
+    transition:.4s;
+}
+
+
 @media (max-width: 768px) {
   .hero-mobile-hide {
     display: none !important;

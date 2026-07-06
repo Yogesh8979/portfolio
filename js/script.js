@@ -107,6 +107,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const card = document.createElement("article");
     card.className = "project-card reveal is-visible";
 
+    // Make entire card clickable
+    card.style.cursor = "pointer";
+
+    card.addEventListener("click", () => {
+      window.location.href = `project.html?id=${project.id}`;
+    });
+
     // ---- Window header bar (dots + status label) ----
     const windowBar = document.createElement("div");
     windowBar.className = "project-window";
@@ -121,23 +128,30 @@ document.addEventListener("DOMContentLoaded", () => {
     card.appendChild(windowBar);
 
     // ---- Media area: video embed (if provided) or screenshot ----
+    // ---- Media area: screenshot + play icon ----
     const media = document.createElement("div");
     media.className = "project-media";
 
-    if (project.video) {
-      const iframe = document.createElement("iframe");
-      iframe.src = project.video;
-      iframe.title = `${project.title} demo video`;
-      iframe.loading = "lazy";
-      iframe.allowFullscreen = true;
-      media.appendChild(iframe);
-    } else {
-      const img = document.createElement("img");
-      img.src = project.image;
-      img.alt = `${project.title} dashboard screenshot`;
-      img.loading = "lazy";
-      media.appendChild(img);
+    // Screenshot
+    const img = document.createElement("img");
+    img.src = project.image;
+    img.alt = `${project.title} dashboard screenshot`;
+    img.loading = "lazy";
+
+    media.appendChild(img);
+
+    // Play icon (only if YouTube link exists)
+    if (project.youtube) {
+      const playBtn = document.createElement("div");
+      playBtn.className = "play-button";
+
+      playBtn.innerHTML = `
+      <i class="fa-solid fa-play"></i>
+  `;
+
+      media.appendChild(playBtn);
     }
+
     card.appendChild(media);
 
     // ---- Body: title, description, tech tags, links ----
@@ -179,7 +193,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (project.docs) {
       links.appendChild(createLink(project.docs, "README →"));
     }
-    if (project.video) {
+    if (project.youtube) {
       links.appendChild(createLink(project.video, "Demo Video →"));
     }
 
