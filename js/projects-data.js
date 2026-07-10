@@ -3,71 +3,71 @@
 
 const projectsData = [
 
-{
-  id: "telecom-churn",
+  {
+    id: "telecom-churn",
 
-  title: "Telecom Customer Churn Analysis Dashboard",
+    title: "Telecom Customer Churn Analysis Dashboard",
 
-  status: "Completed",
+    status: "Completed",
 
-  description:
-    "Interactive Power BI dashboard analyzing telecom customer churn, revenue loss, customer risk, and retention opportunities using business intelligence insights.",
+    description:
+      "Interactive Power BI dashboard analyzing telecom customer churn, revenue loss, customer risk, and retention opportunities using business intelligence insights.",
 
-  image: "assets/projects/telecom_Img/first.png",
+    image: "assets/projects/telecom_Img/first.png",
 
-  screenshots: [
-    "assets/projects/telecom_Img/first.png",
-    "assets/projects/telecom_Img/second.png",
-    "assets/projects/telecom_Img/third.png",
-  ],
+    screenshots: [
+      "assets/projects/telecom_Img/first.png",
+      "assets/projects/telecom_Img/second.png",
+      "assets/projects/telecom_Img/third.png",
+    ],
 
-  youtube:
-    "https://www.youtube.com/embed/5vZGGc2ft-w?autoplay=1&mute=1",
+    youtube:
+      "https://www.youtube.com/embed/5vZGGc2ft-w?autoplay=1&mute=1",
 
-  github:
-    "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
+    github:
+      "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
 
-  linkedin:
-    "https://www.linkedin.com/in/yogesh-gariya/",
+    linkedin:
+      "https://www.linkedin.com/in/yogesh-gariya/",
 
-  docs:
-    "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
+    docs:
+      "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
 
-  tech: [
-    "Power BI",
-    "DAX",
-    "Power Query",
-    "Excel"
-  ],
+    tech: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Excel"
+    ],
 
-  businessProblem: [
-    "Telecom companies lose significant revenue when customers discontinue their services.",
-    "The objective of this project is to identify the factors influencing customer churn.",
-    "Measure churn across customer segments, contract types, and subscribed services.",
-    "Provide actionable business recommendations to improve customer retention and reduce churn."
-  ],
+    businessProblem: [
+      "Telecom companies lose significant revenue when customers discontinue their services.",
+      "The objective of this project is to identify the factors influencing customer churn.",
+      "Measure churn across customer segments, contract types, and subscribed services.",
+      "Provide actionable business recommendations to improve customer retention and reduce churn."
+    ],
 
-  features: [
-    "Customer Churn Overview Dashboard",
-    "Customer Risk Analysis",
-    "Executive Business Summary",
-    "Revenue Loss Analysis"
-  ],
+    features: [
+      "Customer Churn Overview Dashboard",
+      "Customer Risk Analysis",
+      "Executive Business Summary",
+      "Revenue Loss Analysis"
+    ],
 
-  challenges: [
-    "Cleaning Customer Data",
-    "Building Interactive Business Dashboards"
-  ],
+    challenges: [
+      "Cleaning Customer Data",
+      "Building Interactive Business Dashboards"
+    ],
 
-  learnings: [
-    "Customer Churn Analytics",
-    "Business Intelligence with Power BI"
-  ]
-},
+    learnings: [
+      "Customer Churn Analytics",
+      "Business Intelligence with Power BI"
+    ]
+  },
 
 
 
-{
+  {
     id: "retail-sales",
 
     title: "Retail Sales Performance Dashboard",
@@ -82,7 +82,7 @@ const projectsData = [
       "assets/projects/retail-sales-img/first.png",
       "assets/projects/retail-sales-img/second.png",
       "assets/projects/retail-sales-img/third.png",
-      
+
     ],
 
     youtube:
@@ -132,264 +132,326 @@ const projectsData = [
   },
 
   {
-  id: "patient",
+    id: "patient",
 
-  title: "Health Risk Analysis Dashboard",
+    title: "Health Risk Analysis Dashboard",
 
-  status: "Completed",
+    status: "Completed",
 
-  description:
-    "Interactive Power BI dashboard analyzing patient health risks using BMI, cholesterol levels, diabetes status, age groups, and gender distribution to provide meaningful healthcare insights.",
+    description:
+      "Interactive Power BI dashboard analyzing patient health risks using BMI, cholesterol levels, diabetes status, age groups, and gender distribution to provide meaningful healthcare insights.",
 
-  image: "assets/projects/Health-Risk-img/first.png",
-  screenshots: [
-    "assets/projects/Health-Risk-img/first.png",
-    "assets/projects/Health-Risk-img/second.png",
-    
-  ],
+    image: "assets/projects/Health-Risk-img/first.png",
+    screenshots: [
+      "assets/projects/Health-Risk-img/first.png",
+      "assets/projects/Health-Risk-img/second.png",
 
-  youtube:
-    "https://www.youtube.com/embed/qv0U8Tpmui0?autoplay=1&mute=1",
+    ],
 
-  github:
-    "https://github.com/Yogesh8979/Health-Risk-Analysis-Dashboard",
+    youtube:
+      "https://www.youtube.com/embed/qv0U8Tpmui0?autoplay=1&mute=1",
 
-  linkedin:
-    "https://linkedin.com/in/yogesh-gariya",
+    github:
+      "https://github.com/Yogesh8979/Health-Risk-Analysis-Dashboard",
 
-  docs:
-    "https://github.com/Yogesh8979/Health-Risk-Analysis-Dashboard",
+    linkedin:
+      "https://linkedin.com/in/yogesh-gariya",
 
-  tech: [
-    "Power BI",
-    "DAX",
-    "Power Query",
-    "Excel"
-  ],
+    docs:
+      "https://github.com/Yogesh8979/Health-Risk-Analysis-Dashboard",
 
-  businessProblem: [
-    "Healthcare organizations need a clear understanding of patient health risks to support preventive care and informed decision-making.",
-    "Analyze patient health indicators such as BMI, cholesterol, diabetes, age, and gender to identify high-risk groups.",
-    "Visualize health patterns through interactive dashboards that enable efficient exploration of patient data.",
-    "Provide data-driven insights that help improve healthcare planning and patient risk management."
-  ],
+    tech: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Excel"
+    ],
 
-  features: [
-    "Health Risk Analysis Dashboard",
-    "BMI Category Insights",
-    "Interactive KPI Cards",
-    "Age & Gender Distribution Analysis"
-  ],
+    businessProblem: [
+      "Healthcare organizations need a clear understanding of patient health risks to support preventive care and informed decision-making.",
+      "Analyze patient health indicators such as BMI, cholesterol, diabetes, age, and gender to identify high-risk groups.",
+      "Visualize health patterns through interactive dashboards that enable efficient exploration of patient data.",
+      "Provide data-driven insights that help improve healthcare planning and patient risk management."
+    ],
 
-  challenges: [
-    "Cleaning and transforming healthcare data",
-    "Designing interactive visualizations for health risk analysis"
-  ],
+    features: [
+      "Health Risk Analysis Dashboard",
+      "BMI Category Insights",
+      "Interactive KPI Cards",
+      "Age & Gender Distribution Analysis"
+    ],
 
-  learnings: [
-    "Healthcare Data Analytics",
-    "Power BI Dashboard Development",
-    "DAX for Healthcare KPIs",
-    "Interactive Data Visualization"
-  ]
-},
+    challenges: [
+      "Cleaning and transforming healthcare data",
+      "Designing interactive visualizations for health risk analysis"
+    ],
 
-{
-  id: "inventory-vba",
+    learnings: [
+      "Healthcare Data Analytics",
+      "Power BI Dashboard Development",
+      "DAX for Healthcare KPIs",
+      "Interactive Data Visualization"
+    ]
+  },
 
-  title: "Inventory Management Dashboard Automation (Excel VBA)",
+  {
+    id: "inventory-vba",
 
-  status: "Completed",
+    title: "Inventory Management Dashboard Automation (Excel VBA)",
 
-  description:
-    "End-to-end automated Inventory Management Dashboard built with Excel VBA that cleans raw data, generates pivot tables, creates KPI cards and charts, and builds a professional dashboard with a single click.",
+    status: "Completed",
 
-  image: "assets/projects/inventory-vba-img/first.png",
+    description:
+      "End-to-end automated Inventory Management Dashboard built with Excel VBA that cleans raw data, generates pivot tables, creates KPI cards and charts, and builds a professional dashboard with a single click.",
 
-  screenshots: [
-    
-    "assets/projects/inventory-vba-img/first.png",
-    "assets/projects/inventory-vba-img/second.png",
-  ],
+    image: "assets/projects/inventory-vba-img/first.png",
 
-  youtube:
-    "https://www.youtube.com/embed/t-3HEgaz3VA?autoplay=1&mute=1",
+    screenshots: [
 
-  github:
-    "https://github.com/Yogesh8979/Excel_Dashboard_Automation",
+      "assets/projects/inventory-vba-img/first.png",
+      "assets/projects/inventory-vba-img/second.png",
+    ],
 
-  linkedin:
-    "https://linkedin.com/in/yogesh-gariya",
+    youtube:
+      "https://www.youtube.com/embed/t-3HEgaz3VA?autoplay=1&mute=1",
 
-  docs:
-    "https://github.com/Yogesh8979/Excel_Dashboard_Automation",
+    github:
+      "https://github.com/Yogesh8979/Excel_Dashboard_Automation",
 
-  tech: [
-    "Microsoft Excel",
-    "Excel VBA",
-    "Excel Charts",
-    "Scripting.Dictionary"
-  ],
+    linkedin:
+      "https://linkedin.com/in/yogesh-gariya",
 
-  businessProblem: [
-    "Retail inventory teams spend hours manually cleaning data, creating pivot tables, building charts, and formatting reports every reporting cycle.",
-    "Automate the complete inventory reporting workflow so users can generate a professional dashboard with a single click.",
-    "Reduce manual effort, eliminate reporting errors, and ensure consistent KPI reporting across inventory operations.",
-    "Provide actionable insights into inventory value, stock levels, supplier performance, warehouse utilization, and reorder management."
-  ],
+    docs:
+      "https://github.com/Yogesh8979/Excel_Dashboard_Automation",
 
-  features: [
-    "One-Click Dashboard Automation",
-    "Automatic Data Cleaning & Transformation",
-    "Dynamic KPI Cards & Pivot Tables",
-    "Interactive Inventory Charts"
-  ],
+    tech: [
+      "Microsoft Excel",
+      "Excel VBA",
+      "Excel Charts",
+      "Scripting.Dictionary"
+    ],
 
-  challenges: [
-    "Automating the complete reporting workflow using VBA",
-    "Generating dynamic dashboards, charts, and KPIs entirely through code"
-  ],
+    businessProblem: [
+      "Retail inventory teams spend hours manually cleaning data, creating pivot tables, building charts, and formatting reports every reporting cycle.",
+      "Automate the complete inventory reporting workflow so users can generate a professional dashboard with a single click.",
+      "Reduce manual effort, eliminate reporting errors, and ensure consistent KPI reporting across inventory operations.",
+      "Provide actionable insights into inventory value, stock levels, supplier performance, warehouse utilization, and reorder management."
+    ],
 
-  learnings: [
-    "Excel VBA Automation",
-    "Inventory Analytics",
-    "Business Intelligence Dashboard Design",
-    "Advanced Excel Reporting"
-  ]
-}
-,
+    features: [
+      "One-Click Dashboard Automation",
+      "Automatic Data Cleaning & Transformation",
+      "Dynamic KPI Cards & Pivot Tables",
+      "Interactive Inventory Charts"
+    ],
 
-{
-  id: "superstore-sales",
+    challenges: [
+      "Automating the complete reporting workflow using VBA",
+      "Generating dynamic dashboards, charts, and KPIs entirely through code"
+    ],
 
-  title: "Super Store Sales Dashboard",
+    learnings: [
+      "Excel VBA Automation",
+      "Inventory Analytics",
+      "Business Intelligence Dashboard Design",
+      "Advanced Excel Reporting"
+    ]
+  }
+  ,
 
-  status: "Completed",
+  {
+    id: "superstore-sales",
 
-  description:
-    "Interactive Power BI dashboard analyzing superstore sales performance, profitability, customer segments, payment methods, regional trends, and a 15-day sales forecast to support business decision-making.",
+    title: "Super Store Sales Dashboard",
 
-  image: "assets/projects/superstore-img/1st.png",
+    status: "Completed",
 
-  screenshots: [
-    "assets/projects/superstore-img/1st.png",
-    "assets/projects/superstore-img/2nd.png",
-    "assets/projects/superstore-img/3rd.png",
-    "assets/projects/superstore-img/4th.png",
-    "assets/projects/superstore-img/5th.png"
-  ],
+    description:
+      "Interactive Power BI dashboard analyzing superstore sales performance, profitability, customer segments, payment methods, regional trends, and a 15-day sales forecast to support business decision-making.",
 
-  youtube:
-    "https://www.youtube.com/embed/A1CfdYbeY6Y?autoplay=1&mute=1",
+    image: "assets/projects/superstore-img/1st.png",
 
-  github:
-    "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
+    screenshots: [
+      "assets/projects/superstore-img/1st.png",
+      "assets/projects/superstore-img/2nd.png",
+      "assets/projects/superstore-img/3rd.png",
+      "assets/projects/superstore-img/4th.png",
+      "assets/projects/superstore-img/5th.png"
+    ],
 
-  linkedin:
-    "https://linkedin.com/in/yogesh-gariya",
+    youtube:
+      "https://www.youtube.com/embed/A1CfdYbeY6Y?autoplay=1&mute=1",
 
-  docs:
-    "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
+    github:
+      "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
 
-  tech: [
-    "Power BI",
-    "DAX",
-    "Power Query",
-    "Bing Maps",
-    "Power BI Forecasting"
-  ],
+    linkedin:
+      "https://linkedin.com/in/yogesh-gariya",
 
-  businessProblem: [
-    "A retail superstore needed a unified dashboard to monitor sales performance, profitability, customer behavior, and regional trends.",
-    "Analyze sales across regions, categories, customer segments, payment modes, and product sub-categories to identify key revenue drivers.",
-    "Forecast future sales using historical order data to support inventory planning and business decisions.",
-    "Provide interactive business insights that help improve profitability, operational efficiency, and strategic planning."
-  ],
+    docs:
+      "https://github.com/Yogesh8979/Superstore_Sales_Dashboard",
 
-  features: [
-    "Sales Performance Dashboard",
-    "15-Day Sales Forecast",
-    "Regional & Category Analysis",
-    "Customer Segment & Payment Analysis"
-  ],
+    tech: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+      "Bing Maps",
+      "Power BI Forecasting"
+    ],
 
-  challenges: [
-    "Building accurate forecasting models using historical sales data",
-    "Designing an interactive dashboard with multiple business KPIs and visualizations"
-  ],
+    businessProblem: [
+      "A retail superstore needed a unified dashboard to monitor sales performance, profitability, customer behavior, and regional trends.",
+      "Analyze sales across regions, categories, customer segments, payment modes, and product sub-categories to identify key revenue drivers.",
+      "Forecast future sales using historical order data to support inventory planning and business decisions.",
+      "Provide interactive business insights that help improve profitability, operational efficiency, and strategic planning."
+    ],
 
-  learnings: [
-    "Retail Sales Analytics",
-    "Power BI Forecasting",
-    "Advanced DAX Measures",
-    "Business Intelligence Dashboard Design"
-  ]
-},
+    features: [
+      "Sales Performance Dashboard",
+      "15-Day Sales Forecast",
+      "Regional & Category Analysis",
+      "Customer Segment & Payment Analysis"
+    ],
+
+    challenges: [
+      "Building accurate forecasting models using historical sales data",
+      "Designing an interactive dashboard with multiple business KPIs and visualizations"
+    ],
+
+    learnings: [
+      "Retail Sales Analytics",
+      "Power BI Forecasting",
+      "Advanced DAX Measures",
+      "Business Intelligence Dashboard Design"
+    ]
+  },
 
 
-{
-  id: "hr-analytics",
+  {
+    id: "hr-analytics",
 
-  title: "HR Analytics Dashboard",
+    title: "HR Analytics Dashboard",
 
-  status: "Completed",
+    status: "Completed",
 
-  description:
-    "Interactive Power BI dashboard analyzing employee attrition, workforce demographics, salary trends, job roles, and retention risks to help HR teams make data-driven workforce decisions.",
+    description:
+      "Interactive Power BI dashboard analyzing employee attrition, workforce demographics, salary trends, job roles, and retention risks to help HR teams make data-driven workforce decisions.",
 
-  image: "assets/projects/hr-analytics-img/1st.png",
+    image: "assets/projects/hr-analytics-img/1st.png",
 
-  screenshots: [
-    "assets/projects/hr-analytics-img/1st.png",
-    "assets/projects/hr-analytics-img/2nd.png",
-    "assets/projects/hr-analytics-img/3rd.png",
-    "assets/projects/hr-analytics-img/4th.png"
-  ],
+    screenshots: [
+      "assets/projects/hr-analytics-img/1st.png",
+      "assets/projects/hr-analytics-img/2nd.png",
+      "assets/projects/hr-analytics-img/3rd.png",
+      "assets/projects/hr-analytics-img/4th.png"
+    ],
 
-  youtube:
-    "https://www.youtube.com/embed/YOUR_VIDEO_ID",
+    youtube:
+      "",
 
-  github:
-    "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
+    github:
+      "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
 
-  linkedin:
-    "https://linkedin.com/in/yogesh-gariya",
+    linkedin:
+      "https://linkedin.com/in/yogesh-gariya",
 
-  docs:
-    "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
+    docs:
+      "https://github.com/Yogesh8979/HR_Analytics_Dashboard",
 
-  tech: [
-    "Power BI",
-    "DAX",
-    "Power Query"
-  ],
+    tech: [
+      "Power BI",
+      "DAX",
+      "Power Query"
+    ],
 
-  businessProblem: [
-    "HR teams lack a centralized view to identify employee attrition patterns and the factors driving workforce turnover.",
-    "Analyze employee attrition across departments, age groups, salary bands, job roles, and years at the company.",
-    "Identify high-risk employee segments using interactive dashboards and workforce analytics.",
-    "Provide actionable insights to improve employee retention, engagement, and strategic HR planning."
-  ],
+    businessProblem: [
+      "Banks process thousands of loan applications every year, making it challenging to balance loan approvals while minimizing credit risk and potential defaults.",
+      "The objective of this project is to analyze loan approval patterns, identify high-risk applicants based on credit scores, employment type, and previous default history,",
+      "measure approval and rejection trends across branches and customer segments, and provide actionable business insights that support smarter lending decisions, improve portfolio quality, and reduce future default risk."
+    ],
 
-  features: [
-    "Employee Attrition Dashboard",
-    "Department & Job Role Analysis",
-    "Salary & Age Group Insights",
-    "Employee Retention Analytics"
-  ],
+    features: [
+      "Employee Attrition Dashboard",
+      "Department & Job Role Analysis",
+      "Salary & Age Group Insights",
+      "Employee Retention Analytics"
+    ],
 
-  challenges: [
-    "Cleaning and transforming HR workforce data",
-    "Building interactive attrition KPIs and workforce visualizations"
-  ],
+    challenges: [
+      "Cleaning and transforming HR workforce data",
+      "Building interactive attrition KPIs and workforce visualizations"
+    ],
 
-  learnings: [
-    "HR Analytics",
-    "Employee Attrition Analysis",
-    "Power BI Dashboard Development",
-    "Business Intelligence & Data Visualization"
-  ]
-}
+    learnings: [
+      "HR Analytics",
+      "Employee Attrition Analysis",
+      "Power BI Dashboard Development",
+      "Business Intelligence & Data Visualization"
+    ]
+  },
+
+
+  {
+    id: "bank",
+
+    title: "Bank Loan Analysis Dashboard",
+
+    status: "Completed",
+
+    description:
+      "Interactive dashboard for loan applications, funded amounts, bad loans and lending performance.",
+
+    image: "assets/projects/Bank_loan_Real.img/ss1b.png",
+
+    screenshots: [
+      "assets/projects/Bank_loan_Real.img/ss1b.png",
+      "assets/projects/Bank_loan_Real.img/ss2b.png",
+      "assets/projects/Bank_loan_Real.img/ss3b.png",
+      "assets/projects/Bank_loan_Real.img/ss4b.png",
+    ],
+
+    youtube:
+      // 
+      "",
+
+    github:
+      "https://github.com/yogicode519",
+
+    linkedin:
+      "https://linkedin.com/in/yogesh-gariya",
+
+    docs:
+      "https://github.com/yogicode519",
+
+    tech: [
+      "Power BI",
+      "SQL",
+      "DAX"
+    ],
+
+    businessProblem: [
+      "Banks process thousands of loan applications every year, making it challenging to balance loan approvals while minimizing credit risk and potential defaults.",
+      "The objective of this project is to analyze loan approval patterns, identify high-risk applicants based on credit scores, employment type, and previous default history,",
+      "measure approval and rejection trends across branches and customer segments, and provide actionable business insights that support smarter lending decisions, improve portfolio quality, and reduce future default risk."
+    ],
+
+    features: [
+      "Loan Approval Analysis",
+      "Bad Loan Ratio",
+      "Monthly Trends",
+      "KPI Cards"
+    ],
+
+    challenges: [
+      "Large Dataset",
+      "Performance Optimization"
+    ],
+
+    learnings: [
+      "Financial Analytics",
+      "Dashboard Design"
+    ]
+  },
 
 
   // {
