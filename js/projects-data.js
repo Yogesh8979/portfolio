@@ -3,72 +3,69 @@
 
 const projectsData = [
 
+{
+  id: "telecom-churn",
+
+  title: "Telecom Customer Churn Analysis Dashboard",
+
+  status: "Completed",
+
+  description:
+    "Interactive Power BI dashboard analyzing telecom customer churn, revenue loss, customer risk, and retention opportunities using business intelligence insights.",
+
+  image: "assets/projects/telecom_Img/first.png",
+
+  screenshots: [
+    "assets/projects/telecom_Img/first.png",
+    "assets/projects/telecom_Img/second.png",
+    "assets/projects/telecom_Img/third.png",
+  ],
+
+  youtube:
+    "https://www.youtube.com/embed/5vZGGc2ft-w?autoplay=1&mute=1",
+
+  github:
+    "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
+
+  linkedin:
+    "https://www.linkedin.com/in/yogesh-gariya/",
+
+  docs:
+    "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
+
+  tech: [
+    "Power BI",
+    "DAX",
+    "Power Query",
+    "Excel"
+  ],
+
+  businessProblem: [
+    "Telecom companies lose significant revenue when customers discontinue their services.",
+    "The objective of this project is to identify the factors influencing customer churn.",
+    "Measure churn across customer segments, contract types, and subscribed services.",
+    "Provide actionable business recommendations to improve customer retention and reduce churn."
+  ],
+
+  features: [
+    "Customer Churn Overview Dashboard",
+    "Customer Risk Analysis",
+    "Executive Business Summary",
+    "Revenue Loss Analysis"
+  ],
+
+  challenges: [
+    "Cleaning Customer Data",
+    "Building Interactive Business Dashboards"
+  ],
+
+  learnings: [
+    "Customer Churn Analytics",
+    "Business Intelligence with Power BI"
+  ]
+},
 
 
-
-  {
-    id: "telecom-churn",
-
-    title: "Telecom Customer Churn Analysis Dashboard",
-
-    status: "Completed",
-
-    description:
-      "Interactive Power BI dashboard analyzing telecom customer churn, revenue loss, customer risk, and retention opportunities using business intelligence insights.",
-
-    image: "assets/projects/telecom_img/first.png",
-
-    screenshots: [
-      "assets/projects/telecom_img/first.png",
-      "assets/projects/telecom_img/second.png",
-      "assets/projects/telecom_img/third.png",
-
-    ],
-
-    youtube:
-      "https://www.youtube.com/embed/5vZGGc2ft-w?autoplay=1&mute=1",
-
-    github:
-      "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
-
-    linkedin:
-      "https://www.linkedin.com/in/yogesh-gariya/",
-
-    docs:
-      "https://github.com/Yogesh8979/Telecom_Customer_Churn_Ananlysis-Dashboard",
-
-    tech: [
-      "Power BI",
-      "DAX",
-      "Power Query",
-      "Excel"
-    ],
-
-    businessProblem: [
-      "Telecom companies lose significant revenue when customers discontinue their services.",
-      "The objective of this project is to identify the factors influencing customer churn.",
-      "Measure churn across customer segments, contract types, and subscribed services.",
-      "Provide actionable business recommendations to improve customer retention and reduce churn."
-    ],
-
-
-    features: [
-      "Customer Churn Overview Dashboard",
-      "Customer Risk Analysis",
-      "Executive Business Summary",
-      "Revenue Loss Analysis"
-    ],
-
-    challenges: [
-      "Cleaning Customer Data",
-      "Building Interactive Business Dashboards"
-    ],
-
-    learnings: [
-      "Customer Churn Analytics",
-      "Business Intelligence with Power BI"
-    ]
-  },
 
 {
     id: "retail-sales",
